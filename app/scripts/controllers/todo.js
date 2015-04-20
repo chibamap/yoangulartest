@@ -26,10 +26,6 @@ angular.module('yoangularApp')
  
     todoList.archive = function() {
 			todo.archive();
-      var oldTodos = todoList.todos;
-      todoList.todos = [];
-      angular.forEach(oldTodos, function(todo) {
-        if (!todo.done) todoList.todos.push(todo);
-      });
+			
     };
   });

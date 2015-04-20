@@ -9,6 +9,7 @@
  */
 angular.module('yoangularApp')
   .controller('MainCtrl', function ($scope) {
+		hoge.test();
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
